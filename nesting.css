@@ -1,0 +1,15 @@
+div {
+  font-size: 20px;
+}
+div p {
+  color: #97f009;
+}
+div p button {
+  border: 1px solid #2658fc;
+  size: 50%;
+  border-radius: 25px;
+  background-color: #2658fc;
+  color: white;
+}
+
+/*# sourceMappingURL=nesting.css.map */

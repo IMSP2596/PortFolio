@@ -1,0 +1,17 @@
+$primary-color:#2658fc;
+$secondary-color: #97f009;
+$font-size:20px;
+div{
+    font-size: $font-size;
+    p{
+        color: $secondary-color;
+        button{
+           border: 1px solid $primary-color;
+           size: 50%;
+           border-radius: 25px;
+           background-color: $primary-color;
+           color: #ffff;
+        }
+    }
+    
+}
