@@ -1,0 +1,20 @@
+@mixin button-style($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-primary {
+    @include button-style(#3498db, white);
+  }
+  
+  .button-secondary {
+    @include button-style(#2ecc71, white);
+  }
+  .button-teritary {
+    @include button-style(#cc5334, white);
+  }
+  
