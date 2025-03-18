@@ -1,0 +1,9 @@
+$primary-color: #dbae34;
+$secondary-color: #cc2e43;
+$font-size: 25px;
+
+div{
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: $font-size;
+}
